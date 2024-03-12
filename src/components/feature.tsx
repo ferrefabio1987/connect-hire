@@ -1,14 +1,14 @@
 import React from 'react'
-import { Service } from '../types/service'
+import { Feature } from '../types/feature'
 import { FadeIn } from './effects/fade-in'
 
 type Props = {
   id: string
   title: string
-  services: Service[]
+  features: Feature[]
 }
 
-export default function Feature({ id, title, services }: Props) {
+export default function Feature({ id, title, features }: Props) {
   return (
     <section id={id} className="container bg-white px-6 py-16 lg:py-20">
       <div className="mx-auto max-w-7xl">
@@ -17,8 +17,10 @@ export default function Feature({ id, title, services }: Props) {
             {title}
           </h1>
         </div>
-        <div className="mt-8 grid justify-center gap-10 focus:outline-none md:grid-cols-3 lg:mt-20">
-          {services.map((item, index) => (
+        <div
+          className={`mt-8 grid justify-center gap-10 focus:outline-none md:grid-cols-${features.length} lg:mt-20`}
+        >
+          {features.map((item, index) => (
             <FadeIn key={index} className="flex w-full flex-col focus:outline-none">
               <h2 tabIndex={0} className="text-lg font-bold leading-tight  focus:outline-none">
                 {item.title}

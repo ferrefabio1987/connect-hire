@@ -26,9 +26,9 @@ export default function Footer({ links }: Props) {
         </div>
       </div>
       <div className="flex flex-col items-center justify-center py-16">
-        <LocalizedClientLink href="/">ARCHIMEDEX</LocalizedClientLink>
+        <LocalizedClientLink href="/">ConnectHire</LocalizedClientLink>
         <p className="mt-6 text-xs leading-none text-white lg:text-sm">
-          2024 Archimedex. All Rights Reserved.
+          2024 ConnectHire. All Rights Reserved.
         </p>
       </div>
     </footer>

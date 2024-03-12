@@ -35,7 +35,7 @@ body {
   height: 100%;
   min-height: 65svh;
   grid-column-gap: 50px;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1.6fr 0.8fr;
   align-items: center;
   display: grid;
 }

@@ -15,12 +15,12 @@ export default function Container({ children }: Props) {
       title: t('what')
     },
     {
-      href: '/#about',
-      title: t('about')
+      href: '/#works',
+      title: t('works')
     },
     {
-      href: '/#portfolio',
-      title: t('portfolio')
+      href: '/#advantages',
+      title: t('advantages')
     },
     {
       href: '/#contact',

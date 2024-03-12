@@ -1,42 +1,56 @@
 {
   "Index": {
-    "about": "Chi siamo",
+    "advantages": "Vantaggi",
+    "works": "Come funziona",
     "what": "Cosa facciamo",
-    "portfolio": "Portfolio",
     "contact": "Contatti",
-    "hero_one": "ARCHIMEDEX",
-    "hero_two": "RISOLVE",
-    "hero_three": "PROBLEMI",
+    "hero_one": "CONNECTHIRE",
+    "hero_two": "RECRUTA BENE.",
+    "hero_three": "FALLO ORA.",
     "btn_get": "Contattaci"
   },
   "Intro": {
-    "title": "La consulenza informatica su misura e soluzioni innovative.",
-    "subtitle": "Siamo esperti nella creazione di progetti su misura che sfruttano le potenzialità dell'intelligenza artificiale per risolvere problemi complessi. Con un approccio focalizzato sulle vostre esigenze specifiche, collaboriamo con voi per sviluppare soluzioni personalizzate che ottimizzino l'efficienza, migliorino le performance e trasformino la vostra attività.",
-    "btn_get": "Contattaci"
-  },
-  "About": {
-    "title": "Chi siamo",
-    "subtitle": "Con anni di esperienza nel settore e un team di professionisti altamente qualificati, siamo impegnati nell'eccellenza e nell'innovazione. La nostra missione è aiutare le aziende a raggiungere il massimo potenziale attraverso soluzioni informatiche su misura e supporto continuo.",
-    "btn_get": "Contattaci"
+    "title": "Ottimizza le tue assunzioni con ConnectHire.",
+    "subtitle": "Benvenuto su ConnectHire, la soluzione innovativa per semplificare il processo di selezione del personale. Grazie alla potente intelligenza artificiale, analizziamo automaticamente i CV dei candidati e li classifichiamo in base a criteri specifici, permettendoti di identificare rapidamente i profili più adatti alle tue esigenze.",
+    "btn_get": "Sei interessato"
   },
   "Contact": {
     "title": "Contattaci",
-    "subtitle": "Se siete pronti a trasformare il vostro business con soluzioni informatiche all'avanguardia, contattateci oggi stesso per una consulenza gratuita. Siamo qui per voi, pronti a guidarvi verso il successo.",
+    "subtitle": "Vuoi saperne di più? Contattaci per ottenere ulteriori dettagli e scopri come possiamo aiutarti nel processo di selezione del personale.",
     "btn_get": "Invia"
   },
-  "Services": {
-    "title": "Servizi",
-    "services_1": {
-      "title": "Consulenza Informatica",
-      "subtitle": "Il nostro team di esperti offre consulenza personalizzata per affrontare le sfide informatiche della vostra azienda. Dall'ottimizzazione dei processi all'integrazione dei sistemi, siamo qui per aiutarvi a raggiungere i vostri obiettivi."
+  "Advantages": {
+    "title": "Vantaggi principali",
+    "advantages_1": {
+      "title": "Risparmio di Tempo",
+      "subtitle": "Elimina la noiosa fase di screening dei CV, focalizzati solo sui candidati più promettenti."
     },
-    "services_2": {
-      "title": "Progettazione e Sviluppo",
-      "subtitle": "Utilizziamo le più recenti tecnologie e metodologie per progettare e sviluppare soluzioni informatiche su misura. Dalle applicazioni web alle soluzioni desktop e mobile, il nostro obiettivo è fornirvi prodotti di alta qualità che superino le vostre aspettative."
+    "advantages_2": {
+      "title": "Precisione",
+      "subtitle": "L'intelligenza artificiale valuta i candidati in modo obiettivo, garantendo una selezione basata su dati oggettivi."
     },
-    "services_3": {
-      "title": "Intelligenza Artificiale",
-      "subtitle": "Specializzati nell'applicazione dell'intelligenza artificiale, creiamo soluzioni avanzate che consentono di automatizzare processi, analizzare dati complessi e prendere decisioni più intelligenti. Dalla machine learning all'elaborazione del linguaggio naturale, portiamo la potenza dell'IA nelle vostre mani."
+    "advantages_3": {
+      "title": "Efficienza",
+      "subtitle": "Semplifica il processo di reclutamento e ottimizza le risorse umane per decisioni più informate."
+    }
+  },
+  "Works": {
+    "title": "Come funziona",
+    "works_1": {
+      "title": "Carica l'Annuncio di Lavoro",
+      "subtitle": "Inserisci i dettagli del tuo annuncio di lavoro per iniziare il processo."
+    },
+    "works_2": {
+      "title": "Analisi automatica",
+      "subtitle": "La nostra intelligenza artificiale analizza in modo approfondito i CV caricati, considerando competenze, esperienze e altre metriche rilevanti."
+    },
+    "works_3": {
+      "title": "Classifica dei Candidati",
+      "subtitle": "Ricevi una classifica dettagliata dei candidati con punteggi basati sui requisiti specifici del tuo annuncio."
+    },
+    "works_4": {
+      "title": "Esplora i Profili",
+      "subtitle": "Scopri i dettagli dei candidati migliori e prendi decisioni informate con facilità."
     }
   },
   "Portfolio": {

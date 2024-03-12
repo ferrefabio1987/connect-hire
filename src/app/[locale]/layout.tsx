@@ -1,17 +1,17 @@
 import { Metadata } from 'next'
-import { Unbounded } from 'next/font/google'
+import { Raleway } from 'next/font/google'
 import '../../globals.css'
 import Container from '@/src/components/container'
 import { ReactNode } from 'react'
 
-const unbouded = Unbounded({
+const inter = Raleway({
   subsets: ['latin'],
-  weight: ['200', '300', '400', '500', '600', '700', '800', '900']
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 })
 
 export const metadata: Metadata = {
-  title: 'Archimedex',
-  description: 'La consulenza informatica su misura.'
+  title: 'ConnectHire',
+  description: 'Recruit Right. Right Now.'
 }
 
 export default async function PageLayout({
@@ -23,7 +23,7 @@ export default async function PageLayout({
 }) {
   return (
     <html lang={locale} className="scroll-smooth">
-      <body className={unbouded.className}>
+      <body className={inter.className}>
         <Container>{children}</Container>
       </body>
     </html>

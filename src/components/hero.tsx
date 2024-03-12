@@ -15,17 +15,17 @@ export default function Hero() {
         <div className="for-hero">
           <div className="flex flex-col justify-end">
             <SlideRight>
-              <h1 className="my-2 text-[10vw] font-semibold leading-none md:text-[70px] lg:text-[80px]">
+              <h1 className="my-2 text-[10vw] font-bold leading-none md:text-[70px] lg:text-[80px]">
                 {t('hero_one')}
               </h1>
             </SlideRight>
             <SlideLeft className="flex justify-end">
-              <h1 className="my-2 text-[10vw] font-semibold leading-none md:text-[70px] lg:text-[80px]">
+              <h1 className="my-2 text-[10vw] font-bold leading-none md:text-[70px] lg:text-[80px]">
                 {t('hero_two')}
               </h1>
             </SlideLeft>
             <SlideRight>
-              <h1 className="my-2 text-[10vw] font-semibold leading-none md:text-[70px] lg:text-[80px]">
+              <h1 className="my-2 text-[10vw] font-bold leading-none md:text-[70px] lg:text-[80px]">
                 {t('hero_three')}
               </h1>
             </SlideRight>

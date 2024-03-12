@@ -15,7 +15,7 @@ export default function Contact({ id, title, subtitle, button }: Props) {
       <div className="mx-auto max-w-3xl">
         <h2 className="text-center text-3xl font-bold tracking-tight sm:text-4xl">{title}</h2>
         <p className="mt-4 text-center text-lg leading-8 text-gray-600">{subtitle}</p>
-        <form action="https://fabform.io/f/yP897lE" method="post">
+        <form action="https://fabform.io/f/RIyVQ0K" method="post">
           <div className="mt-6 flex flex-col gap-4 md:flex-row">
             <label htmlFor="email-address" className="sr-only">
               Indirizzo email

@@ -1,12 +1,12 @@
 {
   "Index": {
-    "about": "About",
-    "what": "Services",
-    "portfolio": "Portfolio",
+    "advantages": "Advantages",
+    "works": "How it works",
+    "what": "What we do",
     "contact": "Contact",
-    "hero_one": "ARCHIMEDEX",
-    "hero_two": "SOLVES",
-    "hero_three": "PROBLEMS",
+    "hero_one": "CONNECTHIRE",
+    "hero_two": "RECRUIT RIGHT.",
+    "hero_three": "RIGHT NOW.",
     "btn_get": "Contact Us"
   },
   "Intro": {
@@ -14,32 +14,45 @@
     "subtitle": "We specialize in creating bespoke projects harnessing the power of artificial intelligence to solve complex problems. With a focus on your specific needs, we collaborate with you to develop customized solutions that optimize efficiency, enhance performance, and transform your business.",
     "btn_get": "Contact Us"
   },
-  "About": {
-    "title": "About Us",
-    "subtitle": "With years of experience in the industry and a team of highly qualified professionals, we are committed to excellence and innovation. Our mission is to help businesses reach their full potential through tailored IT solutions and continuous support.",
-    "btn_get": "Contact Us"
-  },
   "Contact": {
     "title": "Contact Us",
-    "subtitle": "If you're ready to transform your business with cutting-edge IT solutions, contact us today for a free consultation. We're here for you, ready to guide you to success.",
+    "subtitle": "Do you want to learn more? Contact us to get further details and discover how we can assist you in the personnel selection process.",
     "btn_get": "Send"
   },
-  "Services": {
-    "title": "Services",
-    "services_1": {
-      "title": "IT Consulting",
-      "subtitle": "Our team of experts provides personalized consulting to address your company's IT challenges. From process optimization to system integration, we are here to help you achieve your goals."
+  "Advantages": {
+    "title": "Main Advantages",
+    "advantages_1": {
+      "title": "Time Saving",
+      "subtitle": "Eliminates the tedious CV screening phase, focusing only on the most promising candidates."
     },
-    "services_2": {
-      "title": "Design and Development",
-      "subtitle": "We use the latest technologies and methodologies to design and develop tailor-made IT solutions. From web applications to desktop and mobile solutions, our goal is to provide you with high-quality products that exceed your expectations."
+    "advantages_2": {
+      "title": "Precision",
+      "subtitle": "Artificial intelligence evaluates candidates objectively, ensuring a selection based on objective data."
     },
-    "services_3": {
-      "title": "Artificial Intelligence",
-      "subtitle": "Specializing in the application of artificial intelligence, we create advanced solutions that automate processes, analyze complex data, and make smarter decisions. From machine learning to natural language processing, we bring the power of AI into your hands."
-    },
-    "btn_get": "Send"
+    "advantages_3": {
+      "title": "Efficiency",
+      "subtitle": "Simplifies the recruitment process and optimizes human resources for more informed decisions."
+    }
   },
+  "Works": {
+    "title": "How it works",
+    "works_1": {
+      "title": "Upload Job Posting",
+      "subtitle": "Enter the details of your job posting to begin the process."
+    },
+    "works_2": {
+      "title": "Automatic Analysis",
+      "subtitle": "Our artificial intelligence thoroughly analyzes uploaded CVs, considering skills, experiences, and other relevant metrics."
+    },
+    "works_3": {
+      "title": "Candidate Ranking",
+      "subtitle": "Receive a detailed ranking of candidates with scores based on the specific requirements of your job posting."
+    },
+    "works_4": {
+      "title": "Explore Profiles",
+      "subtitle": "Discover details of the top candidates and make informed decisions with ease."
+    }
+  },  
   "Portfolio": {
     "title": "Recent works"
   }

@@ -1,1 +1,1 @@
-# Archimedex AI
+# Connect HIRE - Recruit Right. Right Now.
