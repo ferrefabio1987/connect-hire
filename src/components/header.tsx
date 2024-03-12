@@ -1,6 +1,7 @@
 import MenuMobile from './menu-mobile'
 import LocalizedClientLink from './localized-client-link'
 import { Link } from '../types/link'
+import Image from 'next/image'
 
 type Props = {
   links: Link[]
@@ -10,7 +11,7 @@ export default function Header({ links }: Props) {
   return (
     <div className="fixed z-50 flex h-20 w-full items-center justify-between bg-white px-[5%]">
       <LocalizedClientLink href={'/'}>
-        <div className="text-2xl font-bold uppercase">ConnectHire</div>
+        <Image alt="ConnectHire" src="/logo.png" width={200} height={100} />
       </LocalizedClientLink>
       <ul className="hidden gap-x-10 lg:flex">
         {links.map((item, index) => (
