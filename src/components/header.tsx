@@ -11,7 +11,7 @@ export default function Header({ links }: Props) {
   return (
     <div className="fixed z-50 flex h-20 w-full items-center justify-between bg-white px-[5%]">
       <LocalizedClientLink href={'/'}>
-        <Image alt="ConnectHire" src="/logo.png" width={200} height={100} />
+        <Image alt="ConnectHire" src="/logo.png" width={200} priority height={42} />
       </LocalizedClientLink>
       <ul className="hidden gap-x-10 lg:flex">
         {links.map((item, index) => (
