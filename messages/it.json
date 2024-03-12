@@ -1,0 +1,45 @@
+{
+  "Index": {
+    "about": "Chi siamo",
+    "what": "Cosa facciamo",
+    "portfolio": "Portfolio",
+    "contact": "Contatti",
+    "hero_one": "ARCHIMEDEX",
+    "hero_two": "RISOLVE",
+    "hero_three": "PROBLEMI",
+    "btn_get": "Contattaci"
+  },
+  "Intro": {
+    "title": "La consulenza informatica su misura e soluzioni innovative.",
+    "subtitle": "Siamo esperti nella creazione di progetti su misura che sfruttano le potenzialità dell'intelligenza artificiale per risolvere problemi complessi. Con un approccio focalizzato sulle vostre esigenze specifiche, collaboriamo con voi per sviluppare soluzioni personalizzate che ottimizzino l'efficienza, migliorino le performance e trasformino la vostra attività.",
+    "btn_get": "Contattaci"
+  },
+  "About": {
+    "title": "Chi siamo",
+    "subtitle": "Con anni di esperienza nel settore e un team di professionisti altamente qualificati, siamo impegnati nell'eccellenza e nell'innovazione. La nostra missione è aiutare le aziende a raggiungere il massimo potenziale attraverso soluzioni informatiche su misura e supporto continuo.",
+    "btn_get": "Contattaci"
+  },
+  "Contact": {
+    "title": "Contattaci",
+    "subtitle": "Se siete pronti a trasformare il vostro business con soluzioni informatiche all'avanguardia, contattateci oggi stesso per una consulenza gratuita. Siamo qui per voi, pronti a guidarvi verso il successo.",
+    "btn_get": "Invia"
+  },
+  "Services": {
+    "title": "Servizi",
+    "services_1": {
+      "title": "Consulenza Informatica",
+      "subtitle": "Il nostro team di esperti offre consulenza personalizzata per affrontare le sfide informatiche della vostra azienda. Dall'ottimizzazione dei processi all'integrazione dei sistemi, siamo qui per aiutarvi a raggiungere i vostri obiettivi."
+    },
+    "services_2": {
+      "title": "Progettazione e Sviluppo",
+      "subtitle": "Utilizziamo le più recenti tecnologie e metodologie per progettare e sviluppare soluzioni informatiche su misura. Dalle applicazioni web alle soluzioni desktop e mobile, il nostro obiettivo è fornirvi prodotti di alta qualità che superino le vostre aspettative."
+    },
+    "services_3": {
+      "title": "Intelligenza Artificiale",
+      "subtitle": "Specializzati nell'applicazione dell'intelligenza artificiale, creiamo soluzioni avanzate che consentono di automatizzare processi, analizzare dati complessi e prendere decisioni più intelligenti. Dalla machine learning all'elaborazione del linguaggio naturale, portiamo la potenza dell'IA nelle vostre mani."
+    }
+  },
+  "Portfolio": {
+    "title": "Lavori recenti"
+  }
+}
