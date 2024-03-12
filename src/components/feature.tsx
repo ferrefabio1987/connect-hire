@@ -1,6 +1,7 @@
 import React from 'react'
 import { Feature } from '../types/feature'
 import { FadeIn } from './effects/fade-in'
+import { cn } from '@/lib/utils'
 
 type Props = {
   id: string
@@ -18,7 +19,10 @@ export default function Feature({ id, title, features }: Props) {
           </h1>
         </div>
         <div
-          className={`mt-8 grid justify-center gap-10 focus:outline-none md:grid-cols-${features.length} lg:mt-20`}
+          className={cn(
+            'mt-8 grid justify-center gap-10 focus:outline-none md:grid-cols-3 lg:mt-20',
+            `md:grid-cols-${features.length}`
+          )}
         >
           {features.map((item, index) => (
             <FadeIn key={index} className="flex w-full flex-col focus:outline-none">
