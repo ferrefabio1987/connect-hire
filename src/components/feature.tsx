@@ -11,7 +11,7 @@ type Props = {
 }
 
 export default function Feature({ id, title, features }: Props) {
-  const numberElements = `md:grid-cols-${features.length}`
+  const numberElements = features.length === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'
 
   return (
     <section id={id} className="container bg-white px-6 py-16 lg:py-20">
