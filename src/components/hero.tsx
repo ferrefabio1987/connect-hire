@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="for-hero">
           <div className="flex flex-col justify-end">
             <SlideRight>
-              <h1 className="my-2 text-[10vw] font-bold leading-none md:text-[70px] lg:text-[80px]">
+              <h1 className="my-2 text-[10vw] font-bold leading-none md:text-[70px] lg:text-[90px]">
                 {t('hero_one')}
               </h1>
             </SlideRight>

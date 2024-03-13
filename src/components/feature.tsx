@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { Feature } from '../types/feature'
 import { FadeIn } from './effects/fade-in'
@@ -9,7 +11,7 @@ type Props = {
 }
 
 export default function Feature({ id, title, features }: Props) {
-  const numberElements = features.length === 4 ? 'md:grid-cols-4' : 'md:grid-cols-3'
+  const numberElements = `md:grid-cols-${features.length}`
 
   return (
     <section id={id} className="container bg-white px-6 py-16 lg:py-20">
